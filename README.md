@@ -4,11 +4,13 @@ The goal of the `eye_decorators` module is to make it easy to define signature-p
 The module also includes simple utility decorators.
 
 ## Installation
+
 Install the full distribution from source, clone the [GitHub repo](https://github.com/evaneliasyoung/eye-py-decorators) and run
 
-> ```$ pip install .```
+> `$ pip install .`
 
 ## Decorator
+
 ```py
 from eye_decorators import decorator
 
@@ -33,6 +35,7 @@ def run_calculation(tempdir, outdir):
 ```
 
 ## Timed
+
 ```py
 from eye_decorators import timed
 
@@ -42,6 +45,7 @@ def preprocess_input_files(inputdir, tempdir):
 ```
 
 ## Rounded
+
 ```py
 from eye_decorators import timed
 
