@@ -1,12 +1,7 @@
 #!/usr/bin/env python3
 """
 @file      dec_timed.py
-@brief     Timed decorator.
-
-@author    Evan Elias Young
-@date      2022-02-22
-@date      2022-03-25
-@copyright Copyright 2022 Evan Elias Young. All rights reserved.
+@brief     Decorator to time functions.
 """
 
 

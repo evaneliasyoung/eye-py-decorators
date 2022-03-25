@@ -1,12 +1,7 @@
 #!/usr/bin/env python3
 """
 @file      stub.py
-@brief     Decorator types.
-
-@author    Evan Elias Young
-@date      2022-02-22
-@date      2022-02-22
-@copyright Copyright 2022 Evan Elias Young. All rights reserved.
+@brief     Additional package types.
 """
 
 

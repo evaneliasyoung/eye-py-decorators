@@ -2,11 +2,6 @@
 """
 @file      test_rounded.py
 @brief     Test @rounded.
-
-@author    Evan Elias Young
-@date      2022-03-25
-@date      2022-03-25
-@copyright Copyright 2022 Evan Elias Young. All rights reserved.
 """
 
 from eye_decorators import rounded

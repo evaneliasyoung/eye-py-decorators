@@ -2,11 +2,6 @@
 """
 @file      dec_rounded.py
 @brief     Decorator to round floating-point returns.
-
-@author    Evan Elias Young
-@date      2022-02-22
-@date      2022-03-25
-@copyright Copyright 2022 Evan Elias Young. All rights reserved.
 """
 
 
