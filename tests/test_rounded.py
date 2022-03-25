@@ -20,3 +20,9 @@ import pytest
 )
 def test_multi_rounded(ndigits, expected):
     assert rounded(lambda x: x, ndigits=ndigits)(pi) == expected
+
+
+def test_int_rounded():
+    assert isinstance(rounded(lambda x: x)(pi), int)
+    assert isinstance(rounded(lambda x: x, ndigits=None)(pi), int)
+    assert isinstance(rounded(lambda x: x, ndigits=0)(pi), int)

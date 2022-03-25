@@ -23,8 +23,7 @@ def rounded(
     *args: VarArgs,
     **kwds: KwArgs,
 ) -> Union[int, _T]:
-    result: float = round(func(*args, **kwds), ndigits)
-    if ndigits and ndigits > 0:
-        return result
+    if ndigits and int(ndigits) != 0:
+        return round(func(*args, **kwds), ndigits)
     else:
-        return int(result)
+        return round(func(*args, **kwds))
