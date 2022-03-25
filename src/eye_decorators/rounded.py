@@ -5,7 +5,7 @@
 
 @author    Evan Elias Young
 @date      2022-02-22
-@date      2022-02-22
+@date      2022-03-25
 @copyright Copyright 2022 Evan Elias Young. All rights reserved.
 """
 
@@ -23,4 +23,8 @@ def rounded(
     *args: VarArgs,
     **kwds: KwArgs,
 ) -> Union[int, _T]:
-    return round(func(*args, **kwds), ndigits)
+    result: float = round(func(*args, **kwds), ndigits)
+    if ndigits and ndigits > 0:
+        return result
+    else:
+        return int(result)
