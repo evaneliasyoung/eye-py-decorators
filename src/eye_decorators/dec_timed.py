@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 """
-@file      timed.py
+@file      dec_timed.py
 @brief     Timed decorator.
 
 @author    Evan Elias Young
 @date      2022-02-22
-@date      2022-02-22
+@date      2022-03-25
 @copyright Copyright 2022 Evan Elias Young. All rights reserved.
 """
 
 
 from time import time
 
-from .decorator import decorator
+from .dec_decorator import decorator
 from .stub import AnonCallable, VarArgs, KwArgs, _T
 
 

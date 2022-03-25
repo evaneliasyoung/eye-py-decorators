@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-@file      rounded.py
+@file      dec_rounded.py
 @brief     Decorator to round floating-point returns.
 
 @author    Evan Elias Young
@@ -12,7 +12,7 @@
 
 from typing import Optional, SupportsIndex, SupportsRound, Union
 
-from .decorator import decorator
+from .dec_decorator import decorator
 from .stub import AnonCallable, VarArgs, KwArgs, _T
 
 
